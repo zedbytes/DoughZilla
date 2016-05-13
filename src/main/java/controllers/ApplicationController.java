@@ -48,7 +48,6 @@ public class ApplicationController {
 
     public Result teamDoughZilla() {
 
-        System.out.println("triggered method");
         return Results.text().render("GIT commit successful ");
     }
 }
