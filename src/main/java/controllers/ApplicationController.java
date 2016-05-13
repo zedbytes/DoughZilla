@@ -48,6 +48,6 @@ public class ApplicationController {
 
     public Result teamDoughZilla() {
 
-        return Results.text().render("GIT commit successful ");
+        return Results.text().render("second commit work ! ");
     }
 }
